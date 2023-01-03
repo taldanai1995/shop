@@ -1,3 +1,6 @@
-function namesToFirstChar(arr){
-    return arr.map(name => name[0])
+
+
+
+function namesToLengths(arr){
+    return arr.map(name => name.length())
 }
